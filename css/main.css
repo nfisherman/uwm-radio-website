@@ -1,0 +1,34 @@
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.float-container {
+    border: 3px solid #fff;
+    padding: 20px;
+    width: 90%;
+}
+
+.float-child {
+    float: left;
+    padding: 20px;
+    border: 2px solid red;
+    max-width: 100%;
+    height: auto;
+}
+
+.float-child.one {
+    width: auto;
+    max-width: 50%;
+}
+
+.float-child.two {
+    width: 74%;
+}
+
+.logo {
+    width: 20%;
+    max-width: 100%;
+    height: auto;
+}
